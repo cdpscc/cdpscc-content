@@ -1,0 +1,4 @@
+/* Give the Scratch blocks a bit more space around them */
+div.scratchblocks {
+	margin: 0.7em;
+}

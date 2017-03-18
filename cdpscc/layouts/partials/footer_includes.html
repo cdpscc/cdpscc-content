@@ -1,0 +1,9 @@
+{{ $baseUrl := .Site.BaseURL }}
+
+<script src="{{ $baseUrl }}/js/scratchblocks.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+	scratchblocks.renderMatching('code.language-blocks');
+});
+</script>

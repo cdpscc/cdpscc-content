@@ -1,0 +1,8 @@
+languageCode = "en-us"
+title = "CDPS code club"
+baseURL = "https://cdpscc.github.io"
+theme = "bootie-docs"
+
+[params]
+  description = "Useful info and links for code club members"
+
