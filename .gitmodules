@@ -1,0 +1,3 @@
+[submodule "cdpscc/themes/bootie-docs"]
+	path = cdpscc/themes/bootie-docs
+	url = git@github.com:cdpscc/hugo-theme-bootie-docs.git
