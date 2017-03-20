@@ -117,7 +117,7 @@ say (join (answer) [ cookies is a lot! ])
 
 ```python
 cookies = input('How many cookies can you eat?')
-print(cookies + 'cookies is a lot!')
+print(cookies + ' cookies is a lot!')
 ```
 
 ## Custom code
