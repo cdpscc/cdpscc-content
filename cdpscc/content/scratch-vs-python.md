@@ -1,4 +1,5 @@
 +++
+categories = ["scratch", "python"]
 date = "2017-03-18T14:36:12+13:00"
 title = "Scratch vs Python Examples"
 tags = ["scratch", "python"]
