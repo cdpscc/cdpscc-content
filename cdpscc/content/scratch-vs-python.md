@@ -95,7 +95,15 @@ set (full name) to (join (first name) (last name))
 ```python
 full_name = first_name + last name
 ```
+**Note:** you may notice that we didn't add a space between those names - whoops! That's right, the full names will be all squished up. Here's a way to add the space:
 
+```blocks
+set (full name) to (join (first name) (join ( ) (last name)))
+```
+
+```python
+full_name = first_name + ' ' + last name
+```
 
 ## Input and Output
 
@@ -243,5 +251,26 @@ repeat (7)
 ```python
 for i in range(7):
     something()
+```
+
+## Random numbers
+
+```blocks
+set (dice roll) to (pick random (1) to (6))
+```
+
+In Python you need to import a random module to get the extra code for random numbers. At the top of your program, add the following line:
+```python
+from random import randint
+```
+or:
+```python
+from random import *
+```
+The second example imports all sorts of other random number stuff too.
+
+Then later on in your program when need a random number, you can use an example like this:
+```python
+dice_roll = randint(1, 6)
 ```
 
