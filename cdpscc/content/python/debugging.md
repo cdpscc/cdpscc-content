@@ -6,6 +6,29 @@ categories = ["python"]
 
 +++
 
-## name errors
+**Note:** this is still a draft...
 
-blah
+### Name errors (usually typos)
+
+
+```python
+
+from turtle import *
+from random import *
+
+def randomcolour():
+    red = randint(0, 255)
+    green = randint(0, 255)
+    blue = randint(0, 255)
+    color(red, green, blue)
+
+def randomplace():
+    x = randint(-100, 100)
+    y = randint(-100, 100)
+    goto(x, y)
+
+shape("turtle")
+randomcolour()
+```
+
+### Indentation
